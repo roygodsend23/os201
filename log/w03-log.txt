@@ -51,3 +51,6 @@ v/tXISM3Opo=
 =T42K
 -----END PGP PUBLIC KEY BLOCK-----
 
+
+OS 2020 1
+Asignments of Week 02 : done!
