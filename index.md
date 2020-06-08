@@ -5,4 +5,4 @@ contributor :
 * Angkatan 2018
 * [URLs](URLs/)
 
-- Roy
+- RGS
