@@ -1,0 +1,31 @@
+Script started on Mon 08 Jun 2020 02:29:15 PM WIB
+roy.godsend@badak:~$ PS1="$ "
+$ echo $GitHubUser
+roygodsend23
+$ echo $PSTAMP
+TMP1=200608-142844; TMP2=4c5b; echo --home/fasilkom/mahasiswa/r/roy.godsend/
+$ PS1="\$(eval \$PSTAMP)"
+--home/fasilkom/mahasiswa/r/roy.godsend/ls -F
+;                0001-mytest.txt      0003-CEK-PAS0.txt  date  extra/        gpg2      pubkey.asc
+0000-mytest.txt  0002-mytest.txt.asc  coba.txt           exit  extra.tar.gz  mydemos/  w02-enkripsi/
+--home/fasilkom/mahasiswa/r/roy.godsend/sha1sum 0000-mypub.txt 0001-mytest.txt 0002-mytest.txt.asc > SHA1SUM
+sha1sum: 0000-mypub.txt: No such file or directory
+--home/fasilkom/mahasiswa/r/roy.godsend/sha1sum 0000-mytest.txt 0001-mytest.txt 0002-mytest.txt.asc > SHA1SUM
+--home/fasilkom/mahasiswa/r/roy.godsend/sha1sum -c SHA1SUM
+0000-mytest.txt: OK
+0001-mytest.txt: OK
+0002-mytest.txt.asc: OK
+--home/fasilkom/mahasiswa/r/roy.godsend/gpg2 -sb -a SHA1SUM
+
+You need a passphrase to unlock the secret key for
+user: "Roy Godsend Salomo <roy.godsend@ui.ac.id>"
+4096-bit RSA key, ID 7E183F87, created 2020-02-22
+
+--home/fasilkom/mahasiswa/r/roy.godsend/gpg2 --verify SHA1SUM.asc
+gpg: assuming signed data in 'SHA1SUM'
+gpg: Signature made Mon 08 Jun 2020 02:30:59 PM WIB using RSA key ID 7E183F87
+gpg: Good signature from "Roy Godsend Salomo <roy.godsend@ui.ac.id>" [ultimate]
+--home/fasilkom/mahasiswa/r/roy.godsend/exit
+exit
+
+Script done on Mon 08 Jun 2020 02:31:21 PM WIB
