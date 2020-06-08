@@ -1,3 +1,7 @@
+Script started on Wed 03 Jun 2020 10:36:17 PM WIB
+roy.godsend@badak:~$ ls
+0001-mytest.txt  extra  extra.tar.gz  mydemos  pubkey.asc  w02-enkripsi
+roy.godsend@badak:~$ PS1="$ "
 $ echo $GitHubUser
 roygodsend23
 $ echo $PSTAMP
@@ -21,4 +25,4 @@ sub   4096R/ECBB220B 2020-02-22
 200603-223712-89d4-roy.godsend/> exit
 exit
 
-Script done, file is 0001-mytest.txt
+Script done on Wed 03 Jun 2020 10:37:42 PM WIB
